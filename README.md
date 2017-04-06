@@ -1,21 +1,22 @@
 # clamp
 
-Command line frontend to mpg123 and ogg123. Play file in background.
+Command line frontend to mpg123 and ogg123. Its plays file in background.
 
 ## Install
 
 1. Compile: 
 
-	$ gcc -o clamp clamp.c
+		$ gcc -o clamp clamp.c
 
 2. Install:
 
-	$ cp clamp ~/bin/
-	$ export PATH=$PATH:~/bin
+		$ cp clamp ~/bin/
+
+		$ export PATH="$PATH:~/bin"
 
 3. Make directory to store pid files
 
-	$ mkdir /tmp/clamp
+		$ mkdir /tmp/clamp
 
 ## Synopsis
 
@@ -38,19 +39,19 @@ optional arguments:
 
 1. Play the FILE
 
-        $ clamp FILE
+		$ clamp FILE
 
 2. Pause acutal playing file
 
-        $ clamp -p
+		$ clamp -p
 
 3. Unpause acutal playing file
 
-        $ clamp -p
+		$ clamp -p
 
 4. Stop acutal playing file
 
-        $ clamp -s
+		$ clamp -s
 
 ## License
 
